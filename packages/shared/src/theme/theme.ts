@@ -801,7 +801,7 @@ const themePreset: Theme = createTheme(
   deepmerge(themeBase, themeTypographyPreset),
 );
 
-export const lightTheme: Theme = createTheme(
+export export const lightTheme: Theme = createTheme(
   deepmerge(themePreset, {
     palette: {
       mode: 'light',
@@ -819,37 +819,31 @@ export const lightTheme: Theme = createTheme(
         light: '#F3EBFF',
         main: '#F3EBFF',
         dark: '#F3EBFF',
-        // contrastText: '#fff',
       },
       primary: {
         light: '#31007A',
         main: '#31007A',
         dark: '#31007A',
-        // contrastText: '#fff',
       },
       secondary: {
         light: '#E9E1F5',
         main: '#E9E1F5',
         dark: '#E9E1F5',
-        // contrastText: '#fff',
       },
       tertiary: {
         light: '#FCEBFF',
         main: '#FCEBFF',
         dark: '#FCEBFF',
-        // contrastText: '#fff',
       },
       accent1: {
         light: '#31007A',
         main: '#31007A',
         dark: '#31007A',
-        // contrastText: '#fff',
       },
       accent2: {
         light: '#8700B8',
         main: '#8700B8',
         dark: '#8700B8',
-        // contrastText: '#fff',
       },
       surface1: {
         light: '#FCFAFF',
@@ -889,6 +883,7 @@ export const lightTheme: Theme = createTheme(
     },
   }),
 );
+
 
 export const darkTheme: Theme = createTheme(
   deepmerge(themePreset, {
