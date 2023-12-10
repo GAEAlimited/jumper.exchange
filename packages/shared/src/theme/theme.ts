@@ -895,8 +895,7 @@ export const darkTheme: Theme = createTheme(
     palette: {
       mode: 'dark',
       background: {
-        default:
-          'linear-gradient(180deg, #000000 0%, #0C001F 49.48%, #000000 99.48%)', //'#241D52',
+        default: 'linear-gradient(180deg, #000000 0%, #0C001F 49.48%, #000000 99.48%)',
       },
       text: {
         primary: '#fff',
@@ -906,45 +905,38 @@ export const darkTheme: Theme = createTheme(
       },
       bg: {
         light: '#0E0B1F',
-        main: '#030014', //#030014;
+        main: '#030014',
         dark: '#030014',
-        // contrastText: '#fff',
       },
       primary: {
         light: '#653BA3',
         main: '#653BA3',
         dark: '#653BA3',
-        // contrastText: '#fff',
       },
       secondary: {
         light: '#321D52',
         main: '#321D52',
         dark: '#321D52',
-        // contrastText: '#fff',
       },
       tertiary: {
         light: '#33163D',
         main: '#33163D',
         dark: '#33163D',
-        // contrastText: '#fff',
       },
       accent1: {
         light: '#653BA3',
         main: '#653BA3',
         dark: '#653BA3',
-        // contrastText: '#fff',
       },
       accent1Alt: {
         light: '#BEA0EB',
         main: '#BEA0EB',
         dark: '#BEA0EB',
-        // contrastText: '#fff',
       },
       accent2: {
         light: '#D35CFF',
         main: '#D35CFF',
         dark: '#D35CFF',
-        // contrastText: '#fff',
       },
       surface1: {
         light: '#120F29',
@@ -980,6 +972,54 @@ export const darkTheme: Theme = createTheme(
         light: '#B8ADFF',
         main: '#B8ADFF',
         dark: '#B8ADFF',
+      },
+      alphaDark100: {
+        main: 'rgba(255, 255, 255, 0.04)',
+      },
+      alphaDark200: {
+        main: 'rgba(255, 255, 255, 0.08)',
+      },
+      alphaDark300: {
+        main: 'rgba(255, 255, 255, 0.12)',
+      },
+      alphaDark400: {
+        main: 'rgba(255, 255, 255, 0.16)',
+      },
+      alphaDark500: {
+        main: 'rgba(255, 255, 255, 0.24)',
+      },
+      alphaDark600: {
+        main: 'rgba(255, 255, 255, 0.32)',
+      },
+      alphaDark700: {
+        main: 'rgba(255, 255, 255, 0.48)',
+      },
+      alphaDark800: {
+        main: 'rgba(255, 255, 255, 0.64)',
+      },
+      alphaLight100: {
+        main: 'rgba(0, 0, 0, 0.04)',
+      },
+      alphaLight200: {
+        main: 'rgba(0, 0, 0, 0.08)',
+      },
+      alphaLight300: {
+        main: 'rgba(0, 0, 0, 0.12)',
+      },
+      alphaLight400: {
+        main: 'rgba(0, 0, 0, 0.16)',
+      },
+      alphaLight500: {
+        main: 'rgba(0, 0, 0, 0.24)',
+      },
+      alphaLight600: {
+        main: 'rgba(0, 0, 0, 0.32)',
+      },
+      alphaLight700: {
+        main: 'rgba(0, 0, 0, 0.48)',
+      },
+      alphaLight800: {
+        main: 'rgba(0, 0, 0, 0.64)',
       },
     },
   }),
